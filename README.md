@@ -4,7 +4,6 @@
 
 Open System Interconnection atau OSI Layer adalah standardisasi khusus yang memungkinkan berbagai komputer dapat saling berkomunikasi menggunakan protokol sesuai standarnya. Model ini dirancang oleh ISO (International Organization for Standardization).
 <br>
-<br>
 
 ## Sejarah OSI Layer
 
@@ -16,12 +15,12 @@ Salah satu proyek digarap oleh ISO. Sementara CCITT Komisi Konsultan Komunikasi 
 
 OSI Layer sebenarnya dibuat agar menjadi model protokol komunikasi yang diadopsi secara internasional oleh para pengembang di bidang internet. Sayangnya hal tersebut gagal terwujud karena munculnya protokol TCP/IP hasil pengembangan Departemen Pertahanan AS. Protokol baru ini dianggap lebih efisien dalam pengaplikasiannya.
 
-Kendati demikian, OSI Layer masih dipakai secara luas sampai sekarang, terutama dalam bidang pendidikan. Lazimnya, OSI layer digunakan untuk menjelaskan sistem kerja dan hubungan antar protokol dalam jaringan komunikasi.<br><br>
+Kendati demikian, OSI Layer masih dipakai secara luas sampai sekarang, terutama dalam bidang pendidikan. Lazimnya, OSI layer digunakan untuk menjelaskan sistem kerja dan hubungan antar protokol dalam jaringan komunikasi.<br>
 
 ## 7 Lapisan OSI Layer
 
 <img src="./assets/7-layers-of-osi.webp">
-Berikut ini merupakan tujuh model OSI Layer, yang mana pada setiap lapisan mempunyai tugas dan fungsi masing-masing sesuai dengan penggunaannya terkait dengan kebutuhan koneksi antar perangkat komputer.<br><br>
+Berikut ini merupakan tujuh model OSI Layer, yang mana pada setiap lapisan mempunyai tugas dan fungsi masing-masing sesuai dengan penggunaannya terkait dengan kebutuhan koneksi antar perangkat komputer.<br>
 
 ### **1. Physical Layer**
 
@@ -31,9 +30,9 @@ Physical layer merupakan layer yang paling utama yang berfungsi untuk mendefinis
 
 Pada tahapan atau level ini juga mendefinisikan mengenai bagaimana sebuah NIC (Network Interface Card) dapat berinteraksi secara langsung dengan media kabel dan perangkat radio. Untuk setiap pengiriman data melalui tiap layer, dapat dianalogikan seperti anda mengirim surat.
 
-Proses dalam data biner dikodekan dalam bentuk yang mampu ditransmisi melalui media jaringan. Contohnya adalah transceiver, konektor, dan kabel yang terkait dengan physical layer. Contoh lain dari peralatan atau perangkat pada lapisan 1 ini adalah hub, repeater, dan network card.<br><br>
+Proses dalam data biner dikodekan dalam bentuk yang mampu ditransmisi melalui media jaringan. Contohnya adalah transceiver, konektor, dan kabel yang terkait dengan physical layer. Contoh lain dari peralatan atau perangkat pada lapisan 1 ini adalah hub, repeater, dan network card.<br>
 
-### **2. Data-Link Layer**<br>
+### **2. Data-Link Layer**
 
 <img src="./assets/datalink-layer.png">
 
@@ -72,7 +71,7 @@ Lapisan yang keenam adalah presentation layer, dimana mempunyai fungsi untuk men
 
 <img src="./assets/application-layer.png">
 
-Application layer adalah lapisan yang menjadi pusat (center) terjadinya suatu interaksi antara pengguna (end user) dengan aplikasi yang bekerja menggunakan fungsionalitas sebuah jaringan. Selain itu juga mempunyai fungsi untuk melakukan konfigurasi mengenai bagaimana cara aplikasi dapat bekerja menggunakan resource jaringan. Dan kemudian, dapat memberikan pesan saat terjadi sebuah kesalahan pada proses pengaturan jaringan. Contoh beberapa services dan protokol yang berada pada application layer adalah HTTP, SMTP, FTP (File Transfer Protocol), NFS, dan lain-lain.<br><br>
+Application layer adalah lapisan yang menjadi pusat (center) terjadinya suatu interaksi antara pengguna (end user) dengan aplikasi yang bekerja menggunakan fungsionalitas sebuah jaringan. Selain itu juga mempunyai fungsi untuk melakukan konfigurasi mengenai bagaimana cara aplikasi dapat bekerja menggunakan resource jaringan. Dan kemudian, dapat memberikan pesan saat terjadi sebuah kesalahan pada proses pengaturan jaringan. Contoh beberapa services dan protokol yang berada pada application layer adalah HTTP, SMTP, FTP (File Transfer Protocol), NFS, dan lain-lain.<br>
 
 ## Cara kerja OSI Layer:
 
